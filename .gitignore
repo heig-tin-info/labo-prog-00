@@ -1,0 +1,17 @@
+# Produits de compilation : on ne publie que les sources
+build/
+rendu/hello
+rendu/hello.exe
+a.out
+*.o
+*.exe
+
+# Caches Python (tests)
+__pycache__/
+.pytest_cache/
+report.xml
+results.json
+graded.yml
+
+# Fichiers de verrouillage de Word
+~$*.docx
